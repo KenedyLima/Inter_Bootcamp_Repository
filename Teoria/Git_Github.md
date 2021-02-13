@@ -21,10 +21,11 @@
 
 - openssl sha1 <NOME DO ARQUIVO>
 - git cat-file -t <SHA1 DO ARQUIVO>
-
 - git init
 - git add *
-- 
+- git remote add origin <url do repositorio>
+
+- git push origin master
 
 
 
@@ -225,6 +226,4 @@ Depois de checar com o _git status_ se você não tem nenhuma pendência com seu
 git push origin master
 
 
-
-### 
 
