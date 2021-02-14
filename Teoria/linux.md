@@ -9,10 +9,6 @@
 - Manipulando usuários
 - Manipulando grupos
 - Informações do sistema
-- Zipando arquivos
-- Instalando programas
-
-
 
 ## Sobre o Linux
 
@@ -52,8 +48,14 @@ _Kernel_ tem a função de comunicar os Hardwares com o Sistema Operacional.
 
 - addgroup: Adiciona um novo grupo
 - cat /etc/group: Mostra todos os grupos existentes
-- addgroup <user> <groupname>: Adiciona um usuário a um grupo
-- delgroup <user> <groupname>: Remove um usuário de um grupo
+- addgroup _user_ _groupname_: Adiciona um usuário a um grupo
+- delgroup _user_ _groupname_: Remove um usuário de um grupo
 - groups: Mostra os grupos que o usuário pertence
 - delgroup: Remove um grupo
+
+## Informações do Sistema e Hardwares
+
+- cat /proc/meminfo: Mostra informações da memória
+- cat /proc/cpuinfo: Mostra informações da CPU
+- cat /proc/version: Mostra versão do Linux
 
